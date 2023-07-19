@@ -5,7 +5,7 @@
       "description": "Desenvolvimento de site",
       "type": "income",
       "category": "Venda",
-      "price": "14000",
+      "price": 14000,
       "createdAt": "2023-07-17T12:26:27.021Z"
     },
     {
@@ -13,8 +13,16 @@
       "description": "Hamburguer",
       "type": "outcome",
       "category": "Alimentação",
-      "price": "50",
+      "price": 50,
       "createdAt": "2023-07-17T12:20:27.021Z"
+    },
+    {
+      "description": "teste 123",
+      "price": 5,
+      "category": "aaaaa",
+      "type": "outcome",
+      "createdAt": "2023-07-19T12:45:56.502Z",
+      "id": 3
     }
   ]
 }

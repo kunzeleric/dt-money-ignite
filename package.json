@@ -7,7 +7,8 @@
     "dev": "vite",
     "dev:server": "json-server server.json -p 3333 -w -d 500",
     "build": "tsc && vite build",
-    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "npx eslint src --ext .tsx,.ts",
+    "lint:fix": "npx eslint src --ext .tsx,.ts --fix",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -19,10 +20,13 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.45.2",
+    "scheduler": "^0.23.0",
     "styled-components": "^6.0.2",
+    "use-context-selector": "^1.4.1",
     "zod": "^3.21.4"
   },
   "devDependencies": {
+    "@rocketseat/eslint-config": "^2.1.0",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
     "@types/styled-components": "^5.1.26",
