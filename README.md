@@ -8,6 +8,9 @@ There is a search bar for specific transactions, a modal to edit transactions an
 - React
 - Styled Components
 - Axios
+- Json-server
+- Zod
+- Radix UI Components
 
 ## Main Goals
 
@@ -15,7 +18,10 @@ There is a search bar for specific transactions, a modal to edit transactions an
 - Improve the React usage.
 - Accessibility to users.
 
-# UNDER CONSTRUCTION!!!
+## Take aways
+
+- Learned new things such as how to use json-server, handling radix UI components for accessibility and zod lib for form validation.
+- Improved useContext abilities, reduce method and some CSS tricks along with the styled-components lib.
 
 ## Setup
 
